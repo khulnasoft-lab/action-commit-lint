@@ -1,4 +1,4 @@
-name: Conventional Commit Lint
+name: Action Conventional Commit Lint
 description: commitlint your PRs with a default configuration auto applied
 
 branding:
