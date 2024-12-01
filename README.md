@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: khulnasoft-lab/action-commit-lint@main
+      - uses: khulnasoft-lab/action-commit-lint@v2
 ```
 
 ###### use different built-in config
@@ -52,7 +52,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-      - uses: khulnasoft-lab/action-commit-lint@main
+      - uses: khulnasoft-lab/action-commit-lint@v2
         with:
           config: ./path/to/commitlint.config
 ```
