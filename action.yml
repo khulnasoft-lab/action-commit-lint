@@ -20,4 +20,4 @@ outputs:
 
 runs:
   using: docker
-  image: docker://ghcr.io/khulnasoft-lab/action-commit-lint:2.1.17
+  image: docker://ghcr.io/khulnasoft-lab/action-commit-lint:2.2.0
