@@ -37,13 +37,13 @@
   "dependencies": {
     "@actions/core": "^1.10.0",
     "@actions/github": "^6.0.0",
-    "@commitlint/config-angular": "^17.6.6",
+    "@commitlint/config-angular": "^19.0.0",
     "@commitlint/config-angular-type-enum": "^17.0.0",
     "@commitlint/config-conventional": "^19.0.0",
     "@commitlint/config-lerna-scopes": "^19.0.0",
     "@commitlint/config-patternplate": "^19.0.0",
     "@commitlint/lint": "^19.0.0",
-    "@commitlint/load": "^17.6.7"
+    "@commitlint/load": "^19.0.0"
   },
   "devDependencies": {
     "sinon": "^15.2.0",
