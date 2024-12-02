@@ -39,7 +39,7 @@ services:
   # ---- main container ---- #
   app:
     profiles: ["app"]
-    image: node:20-alpine
+    image: node:23-alpine
     working_dir: /app
     entrypoint: npm --no-update-notifier --no-fund --no-audit
     command: start
