@@ -4,8 +4,17 @@
 
 FROM alpine:3.19 AS base
 
-# hadolint ignore=DL3018
-RUN apk add --no-cache --update nodejs=18.18.2-r0
+# Install nodejs
+RUN apk add --no-cache nodejs
+
+# Install npm separately
+RUN apk add --no-cache npm
+
+# Verify installations
+RUN node -v && npm -v
+
+# Set npm configurations
+RUN npm config set update-notifier=false audit=false fund=false
 
 WORKDIR /action
 
@@ -16,10 +25,12 @@ ENTRYPOINT [ "node" ]
 FROM base AS build
 
 # hadolint ignore=DL3018
-RUN apk add --no-cache npm=9.6.6-r0
+RUN apk add --no-cache --update nodejs
 
-# slience npm
-# hadolint ignore=DL3059
+# Verify installations
+RUN node -v && npm -v
+
+# Set npm configurations
 RUN npm config set update-notifier=false audit=false fund=false
 
 # install packages

@@ -3,7 +3,7 @@
   "name": "actions-commit-lint",
   "version": "0.0.0-semantically-released",
   "description": "commitlint your PRs with a default configuration auto applied",
-  "author": "KhulnaSoft DevOps <email@khulnasoft.com> (https://www.khulnasoft.com)",
+  "author": "KhulnaSoft DevOps <info@khulnasoft.com> (https://www.khulnasoft.com)",
   "homepage": "https://github.com/khulnasoft-lab/action-commit-lint",
   "repository": {
     "type": "git",
