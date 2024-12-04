@@ -2,7 +2,7 @@
 
 # --- base stage --- #
 
-FROM alpine:3.19 AS base
+FROM alpine:3.20 AS base
 
 # Install nodejs
 RUN apk add --no-cache nodejs
