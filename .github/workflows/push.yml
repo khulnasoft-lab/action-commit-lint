@@ -12,7 +12,7 @@ permissions: read-all
 
 jobs:
   main:
-    uses: khulnasoft/actions/.github/workflows/push-action-docker.yml@master
+    uses: khulnasoft/actions/.github/workflows/push-action-docker.yml@main
     secrets: inherit
     permissions:
       contents: write
